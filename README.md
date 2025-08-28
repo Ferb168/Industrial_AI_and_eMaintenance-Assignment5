@@ -59,13 +59,33 @@ After filtering out the ground level:
 
 <img width="414" height="399" alt="image" src="https://github.com/user-attachments/assets/5f4e1ce3-0e63-4417-82e0-e865ef2a4dd4" />
 
+## Task 2 Results
 
+**Method:** This code uses the K-Nearest Neighbors (NearestNeighbors) function with K=5 to calculate the distance from each point of *pcd_above_ground* to its 5th nearest neighbor. These distances are then sorted and displayed in an elbow chart. 
 
+The y-axis of the chart represents the sorted distances to the 5th nearest neighbor. The 'twisting point' or 'elbow' in this chart, where the curve's slope changes significantly, provides an estimated optimal value for the eps parameter used in DBSCAN clustering.
 
+### Dataset 1
 
+Optical EPS: 1.25
 
+Elbow Chart of Dataset 1:
 
+<img width="866" height="547" alt="image" src="https://github.com/user-attachments/assets/32cfbd71-08c4-4bf1-93f6-ad58668fe031" />
 
+Result:
 
+<img width="855" height="868" alt="image" src="https://github.com/user-attachments/assets/7777f77b-74f8-4aa1-93ad-f980ae07aa45" />
 
+### Dataset 2
+
+Optical EPS: 1
+
+Elbow Chart of Dataset 2:
+
+<img width="833" height="547" alt="image" src="https://github.com/user-attachments/assets/f841ceb4-65df-4506-a190-defc27500c2c" />
+
+Result:
+
+<img width="846" height="868" alt="image" src="https://github.com/user-attachments/assets/82b24b06-35d2-466f-8a83-095232e2f20d" />
 
