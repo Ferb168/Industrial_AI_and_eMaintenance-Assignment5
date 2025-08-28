@@ -67,7 +67,7 @@ The y-axis of the chart represents the sorted distances to the 5th nearest neigh
 
 ### Dataset 1
 
-Optical EPS: 1.25
+Optimal EPS: 1.25
 
 Elbow Chart of Dataset 1:
 
@@ -79,7 +79,7 @@ Result:
 
 ### Dataset 2
 
-Optical EPS: 1
+Optimal EPS: 1
 
 Elbow Chart of Dataset 2:
 
