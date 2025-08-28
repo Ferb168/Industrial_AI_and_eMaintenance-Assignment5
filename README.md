@@ -19,7 +19,7 @@ This assignment uses two semi-processed LiDAR datasets as practice materials. Th
 
 **Goal**: Find the best value for the ground level in the point cloud data.
 
-**Method**: Use a histogram (np.histogram) to help determine the optimal ground level and update the `get_ground_level()` function accordingly.
+**Proposed Method**: Use a histogram (np.histogram) to help determine the optimal ground level and update the `get_ground_level()` function accordingly.
 
 **Requirements**:
 
@@ -58,6 +58,20 @@ Before filtering out the ground level:
 After filtering out the ground level:
 
 <img width="414" height="399" alt="image" src="https://github.com/user-attachments/assets/5f4e1ce3-0e63-4417-82e0-e865ef2a4dd4" />
+
+# Task 2: DBSCAN Clustering (Optimal Eps)
+
+**Goal**: Find an optimized value for the eps parameter for DBSCAN clustering.
+
+**Proposed Method**: 
+1. Plot an elbow curve to help determine the optimal eps value.
+2. Extract the optimal value from the elbow plot.
+3. Apply DBSCAN again with the new eps value.
+
+**Requirements**:
+1. For both datasets, report the optimal eps value in the README of your GitHub project.
+2. Add the elbow plots to the README of your GitHub project.
+3. Add the cluster plots (using the optimized eps) to the README of your GitHub project.
 
 ## Task 2 Results
 
